@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/fundo.jpg);
+	background-size: cover;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #4d4d4d;
+}
+
+nav > a{
+	text-decoration: none;
+	color: #f1f1f1;
+	font-weight: 700;
+	font-size: 28px;
+	font-family: pacifico, serif;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%
+}
+
+nav ul li{
+	text-align: center;
+	width: 100%;
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #f1f1f1;
+}
+nav ul li a:hover{
+	color: #1e90ff;
+	background-color: #fffafa;
+	border-radius: 3px;
+	transition: .5s;
+}
+
+
+.cont{
+	background:#00000070;
+	width:550px;
+	height: 250px;
+	margin: auto;
+	border-radius: 10px;
+}
+
+form{
+	font-size: 16px;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0px 10px 10px 10px;
+}
+
+h1{
+	color:#fff;
+	text-align: center;
+}
+
+input, textarea{
+	width: 470px;
+	padding: 10px;
+}
+
+.enviar input{
+	background: #069;
+	height: 40px;
+	width: 150px;
+	font-weight: bold;
+	border-radius: 5px;
+	border:1px solid;
+	color: white;
+	cursor: pointer;
+}
+
+.enviar input:hover{
+	background: #078;
+}
+
+<textarea{
+	width: 470px;
+	height: 120px;
+	line-height: 20px;
+}
+
+@media screen and (min-width: 768px){
+	/*NAVEGAÇÃO*/
+	nav{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	nav ul{
+		flex-direction: row;
+		width: 70%;
+	}
